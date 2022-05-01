@@ -14,10 +14,10 @@ public class oppg1b {
         System.out.println(beregn(-5, 3, (a, b) -> {
             if (a < b) {
                 return b;
-                // returnerer b viss b er størst
+                // returnerer b viss b er stï¿½rst
             } else {
                 return a;
-                // returnerer a viss a er størst
+                // returnerer a viss a er stï¿½rst
             }
         }));
 
@@ -33,6 +33,7 @@ public class oppg1b {
     }
 
     public static int beregn(int a, int b, BiFunction<Integer, Integer, Integer> func) {
+
         return func.apply(a, b);
     }
 	

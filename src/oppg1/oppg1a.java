@@ -7,7 +7,7 @@ package oppg1;
 	public class oppg1a {
 
 	    public static void main(String[] args) {
-
+			// Sort Arrays values in ascending order via lambda expression
 	        List<String> tallListe = Arrays.asList("10", "1", "20", "110", "21", "12");
 	        Collections.sort(tallListe, (String s1, String s2) ->
 	        {
